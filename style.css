@@ -1,0 +1,129 @@
+body{
+	background:#3c5499;
+	font-family: 'Titillium Web', sans-serif;
+}
+.container{
+	width:80%;
+	margin:auto;
+}
+
+.section_header h2{
+  position:relative;
+	color:#fff;
+	font-size:40px;
+	text-align:center;
+}
+
+.section_header h2:after{	
+	position:absolute;
+	content: '';
+	width:87px;
+	height:4px;
+	background:#273a71;
+	bottom:-11px;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+
+.section_header p{
+	color:#e5e8f1;
+	font-size:18px;
+	text-align:center;
+}
+
+.first_half{
+	width:48%;
+	float:left;
+	position:relative;
+}
+
+.first_half input{
+	width:100%;
+	background:#273a71;
+	padding:15px 0px;
+	border-radius:5px;
+	border:none;	
+}
+
+.first_half label{
+	position:absolute;
+	color:#fff;
+	font-size:18px;
+	top:12px;
+	left:20px;
+}
+
+.first_half label span{
+	color:red;
+}
+
+.second_half{
+	width:48%;
+	float:left;
+	position:relative;
+	margin-left:40px;
+}
+
+.second_half input{
+	width:100%;
+	background:#273a71;
+	padding:15px 0px;
+	border-radius:5px;
+	border:none;	
+}
+
+.second_half label{
+	position:absolute;
+	color:#fff;
+	font-size:18px;
+	top:12px;
+	left:20px;
+}
+
+.second_half label span{
+	color:red;
+}
+.form{
+	margin-top:50px;
+}
+
+.message textarea {
+  background: #273a71;
+  border: none;
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.message{
+	position: relative;
+}
+
+.message label {
+  position: absolute;
+  left:0px;
+  top: 85px;
+  color:#fff;
+  font-size:18px;
+  margin-left:20px;
+  padding:10px 0px;
+}
+
+.message label span{
+	color:red;
+}
+
+.send_btn{
+	margin-top:50px;
+}
+
+.send_btn input[type='submit']{
+	width:250px;
+	display:block;
+	margin:auto;
+	padding:20px 0px;
+	background:#30bae7;
+	border:none;
+	color:#fff;
+	font-weight:700;
+}
